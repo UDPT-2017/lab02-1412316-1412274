@@ -1,0 +1,20 @@
+{
+  "name": "app-lab2",
+  "description": "Ung dung web gui tin nhan",
+  "main": "index.js",
+  "authors": [
+    "1412316 & 1412274"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/UDPT-2017/lab02-1412316-1412274",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

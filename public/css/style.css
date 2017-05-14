@@ -1,0 +1,133 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.content
+{
+  flex: 1;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50; /* green color*/
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white !important;  /* need "!important" for all case, remove blue color text when mouseover active page */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important; /* need "!important" for all case, remove under line when mouseover active page */
+}
+
+
+/* Change the link color to black when mouseover title */
+li a:hover
+{
+    background-color: black;
+}
+
+.navbar-inverse /*ma`u ngoa`i navbar khac cac muc*/
+{
+	background-color: #555555;
+}
+
+.navbar-inverse .navbar-nav>li:hover /*black background when mouseover each page title*/
+{
+	background-color: black;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a /*ma`u ca'c muc ko duoc chon*/
+{
+  background-color: #555555;
+	color: white;
+}
+
+/* config the span */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form /* have 1 white line split span with navigation bar*/
+{
+	border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle
+{
+	border-color: #ffffff; /*border color span*/
+	background: #000000; /*color span*/
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover /*???*/
+{
+	color: #ffffff;
+	background-color: #4CAF50;
+}
+
+.navbar-toggle:hover
+{
+	background-color: #472747 !important; /* the span is violet if mouseover*/
+}
+
+.footer
+{
+	height: 50px;
+	padding: 20px;
+	width: 100%;
+	bottom: 0;
+	background-color: #555;
+	color: white;
+}
+
+@media (max-width: 991px){
+	.navbar-header {
+			float: none;
+	}
+	.navbar-left,.navbar-right {
+			float: none !important;
+	}
+	.navbar-toggle {
+			display: block;
+	}
+	.navbar-collapse {
+			border-top: 1px solid transparent;
+			box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-fixed-top {
+			top: 0;
+			border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+			display: none!important;
+	}
+	.navbar-nav {
+			float: none!important;
+			margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+			float: none;
+	}
+	.navbar-nav>li>a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+	}
+	.collapse.in{
+			display:block !important;
+	}
+}

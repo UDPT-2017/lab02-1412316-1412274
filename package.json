@@ -1,0 +1,26 @@
+{
+  "name": "app-lab2",
+  "version": "0.0.1",
+  "description": "Ung dung web gui tin nhan",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UDPT-2017/lab02-1412316-1412274.git"
+  },
+  "author": "1412316 & 1412274",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UDPT-2017/lab02-1412316-1412274/issues"
+  },
+  "homepage": "https://github.com/UDPT-2017/lab02-1412316-1412274#readme"
+}

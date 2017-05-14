@@ -20,8 +20,8 @@ Yêu cầu **GIT**
 
 Yêu cầu **bắt buộc**
 * [ ] Website layout theo kiến trúc MVC với các thành phần được tách thành nhiều module theo hướng dẫn. (**1412316**)
-* [ ] Trang web được thiết kế sẽ bao gồm các trang: home, messages, users, about. (**1412316**)
-* [ ] Cho phép người dùng biết họ đang ở trang nào (sử dụng breadcrumb, highlight navigation bar,...). (**1412316**)
+* [x] Trang web được thiết kế sẽ bao gồm các trang: home, messages, users, about. (**1412316**)
+* [x] Cho phép người dùng biết họ đang ở trang nào (sử dụng breadcrumb, highlight navigation bar,...). (**1412316**)
 * [ ] Cho phép người dùng đăng ký tài khoản bằng các thông tin: email, password, name, phone.(**MSSV**)
 * [ ] Đăng nhập bằng email và password.(**MSSV**)
 * [ ] Sau khi đăng nhập, người dùng sẽ được chuyển đến trang liệt kê danh sách các tin nhắn đã nhận, sắp xếp theo thứ tự thời gian, một nút để tạo tin nhắn mới, nút để xem danh sách bạn bè và nút để xem các tin nhắn đã gửi.(**MSSV**)
